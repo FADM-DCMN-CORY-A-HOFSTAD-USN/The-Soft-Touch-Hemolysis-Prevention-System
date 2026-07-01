@@ -6,16 +6,7 @@ The primary scientific objective of this project is to model how fluid velocity 
 
 ---
 
-## ⚖️ Regulatory Notice & Repository Governance
-To preserve complete alignment with GitHub Trust & Safety standards, FDA software data frameworks, and institutional healthcare guidelines, this repository enforces strict operational parameters:
-
-* **Pure Formulaic Models:** All fluid transport matrices, velocity curves, and shear stress profiles detailed within this repository rely exclusively on established mathematical rules, classical fluid mechanics, and peer-reviewed mechanical blood damage equations. 
-* **Absolute PHI Exclusion:** This codebase maintains an airtight barrier against individual patient data. Absolutely **no Protected Health Information (PHI)**, live hospital database telemetry, or individual clinical tracking metrics are accepted, processed, or stored. All system validation parameters utilize strictly synthetic engineering variables.
-* **Non-Device Educational Reference:** This project serves strictly as an educational text reference, device proposal blueprint, and analytical engineering framework. It does not constitute an active, validated medical device and must never be deployed for direct, real-time autonomous patient treatment without full institutional verification.
-
----
-
-## 🔬 Fluid Mechanics & Hemolysis Modeling (Extended LaTeX)
+## Fluid Mechanics & Hemolysis Modeling (Extended LaTeX)
 
 To prevent mechanical cell trauma, the system controls fluid velocity distributions and wall shear stresses. The non-destructive mechanical behavior of blood moving through the system's conduits is evaluated using the following fluid dynamics framework:
 
@@ -57,7 +48,7 @@ Where:
 
 ---
 
-## 📂 Repository Architecture & Technical Assets
+## Repository Architecture & Technical Assets
 This repository systematically organizes its design documents, verification scripts, and boundary layers:
 
 * `Device Proposal The Soft-Touch Hemolysis Prevention System.pdf`: Primary technical brief and mathematical proposal detailing non-destructive flow boundaries.
@@ -71,7 +62,7 @@ This repository systematically organizes its design documents, verification scri
 
 ---
 
-## 🏛️ Legal Administration & Corporate Support
+## Legal Administration & Corporate Support
 This fluid engineering framework, mathematical proposal catalog, and analytical data schematic are maintained under strict corporate and legal oversight. To satisfy platform compliance frameworks, do **NOT** use public GitHub issue fields, public pull requests, or open forum timelines to post math adjustments, mechanical vulnerabilities, or compliance feedback.
 
 All source updates, formula customization requests, development pipeline tickets, formal complaints, and compliments must be routed exclusively to our designated legal representatives:
