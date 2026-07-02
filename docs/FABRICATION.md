@@ -112,3 +112,19 @@ Phase C: Mechanical Assembly
 1. **Shaft Coupler Principle**: The top plate features an integrated tapered, 4-way split collet tower. 
 2. **Locking Nut Installation**: Thread a custom-printed or machined female-tapered M12 nut down over the exterior of the collet tower. As the nut travels downward, it mechanically compresses the 4 individual collet segments inward against the motor shaft.
 3. **Dual Stabilization**: This architecture pairs the rigid torque transfer of your inner surgical stainless steel core block with a secondary, zero-backlash concentric grip directly on the motor shaft surface, preventing micro-wobbles during extended pump cycling.
+
+## ⚙️ 9. Cross-Platform Drive Shaft Calibration (Wheaton vs. Watson-Marlow)
+
+### Geometric Adjustments
+1. **Bore Dimensioning**: The central channel is standardized to `8.0mm`. This provides smooth slip-clearance for the 0.3125-inch (7.94mm) replacement surgical steel shafts utilized by the Wheaton adjustable chuck connector setup.
+2. **Pass-Through Action**: Because the collet sleeve features an open-ended top, long shafts (such as the 36mm Wheaton connector) can pass entirely through the top of the pump assembly without bottoming out.
+3. **Short Shaft Clamping**: For Watson-Marlow setups utilizing shorter 15mm to 25mm inputs, the collet sleeve base is positioned low enough on the plate matrix to catch and lock the terminal end of the shaft securely.
+
+### Printing the Compression Nut
+* **Layer Resolution**: Print the `compression_nut()` module at `0.10mm` layer heights to maintain tight dimensional tracking along the internal matching taper.
+* **Perimeters**: Increase wall perimeters to at least `5` layers to ensure the hex flats do not split when high mechanical force is applied via a wrench during final shaft locking.
+
+### 🔩 Recessed Nut Capture Installation
+1. **Hardware Preparation**: Source three standard stainless steel M3 hexagonal nuts. 
+2. **Nut Seating**: Flip the printed main chassis upside down. Push the M3 nuts firmly into the 6-sided hex cavities molded into the bottom of each radiating arm.
+3. **Seating Method**: If the print tolerances are tight, use a longer M3 screw threaded from the top to smoothly pull the nut up into its recessed pocket until it bottoms out completely. This locks the nut against rotation, allowing easy one-handed fastening from the top retention plate.
