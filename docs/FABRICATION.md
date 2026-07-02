@@ -67,6 +67,17 @@ Phase A: Mold Preparation & Slicing
 
 3.  Surface Post-Processing: Apply a thin micro-layer of high-temperature lacquer or epoxy resin to the inner cavities of the mold. Polish smooth. This ensures a uniform finish on the rubber wheels to eliminate micro-vibrations against the pump tube.
 
+## 🔒 7. Enclosed Sandwich Assembly & Vertical Retention
+
+### Structural Integrity Upgrades
+1. **Vertical Constraint**: The `retention_plate()` module caps the entire mechanism. The ground surgical steel axle pins slide smoothly inside horizontal track channels without any risk of vibrating or shifting out of alignment during high-RPM calibration cycles.
+2. **Surgical Steel Tolerances**: Ensure your core insert block is machined out of 316VM or 316L medical-grade stainless steel. Standardize the central core mounting set-screws to match your motor shaft orientation profile.
+3. **Hardware Assembly**:
+   * Drop the compression springs directly into the lower rotor hub chambers.
+   * Slide the flanged natural rubber wheels onto the 316 stainless axle pins.
+   * Position the axle pins into the linear guide slots under light compression.
+   * Overlay the printed or machined retention plate and screw it down firmly into the hub frame using three non-corrosive medical-grade machine screws.
+
 Phase B: Compounding & Latex Casting
 ------------------------------------
 
